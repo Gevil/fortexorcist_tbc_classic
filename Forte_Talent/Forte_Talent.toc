@@ -1,0 +1,10 @@
+## Interface: 80000
+## Author: Xus (Xussie-Kazzak [EU]) & Belle (Bellexandria-Exodar [US])
+## Title: Forte|c0500dd00Talent|r
+## Notes: Forte Talent Module
+## SavedVariables:
+## OptionalDeps:
+## Dependencies:Forte_Core
+
+Localization.lua
+Forte_Talent.lua

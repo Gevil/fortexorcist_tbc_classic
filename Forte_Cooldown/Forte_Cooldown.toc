@@ -1,0 +1,10 @@
+## Interface: 80000
+## Author: Xus (Xussie-Kazzak [EU]) & Belle (Bellexandria-Exodar [US])
+## Title: Forte|c0300dd00Cooldown|r
+## Notes: ForteXorcist Cooldown Timer module. It gives you powerful tools to manage your cooldowns!
+## SavedVariables:
+## OptionalDeps:
+## Dependencies:Forte_Core
+
+Localization.lua
+Forte_Cooldown.lua

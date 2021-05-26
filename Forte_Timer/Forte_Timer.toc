@@ -1,0 +1,10 @@
+## Interface: 80000
+## Author: Xus (Xussie-Kazzak [EU]) & Belle (Bellexandria-Exodar [US])
+## Title: Forte|c0400dd00Timer|r
+## Notes: ForteXorcist Spell Timer module. It gives you powerful tools to manage your spellcasting, especially damage-over-time spells!
+## SavedVariables:
+## OptionalDeps:Forte_Cooldown
+## Dependencies:Forte_Core, Forte_Casting
+
+Localization.lua
+Forte_Timer.lua
