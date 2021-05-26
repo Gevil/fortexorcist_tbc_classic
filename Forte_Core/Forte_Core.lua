@@ -415,6 +415,8 @@ do -- update frame related stuff uses locals with the smallest scope possible
         for i, f in ipairs(FW_DelayedLoaded) do
           f();
         end
+      
+        FW:RefreshFrames();
       end
     elseif FW.Settings and FW.Settings.LoadDelay then
       UILoaded = GetTime() + FW.Settings.LoadDelay;

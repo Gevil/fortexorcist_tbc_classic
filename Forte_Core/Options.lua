@@ -4420,6 +4420,7 @@ local function FW_SetAllLocks()
       --FW:SetLinkedOptions( d.s,"lock",f);
     end
   end
+
   FW:RefreshFrames();
 end
 
