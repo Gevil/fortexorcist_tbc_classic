@@ -19,7 +19,16 @@ if FW.CLASS == "HUNTER" then
     :AddSpell( 1543,  20,"Crowd",  F.UNIQUE+F.NOTARGET) -- Flare
     :AddSpell( 1130, 300,"Crowd",  F.UNIQUE) -- Hunter's Mark
     :AddSpell( 1513,  20,"Crowd",  F.UNIQUE) -- Scare Beast
+
     :AddSpell(  136,  10,"Pet",    F.NOTARGET) -- Mend Pet
+    :AddSpell( 3111,  10,"Pet",    F.NOTARGET) -- Mend Pet
+    :AddSpell( 3661,  10,"Pet",    F.NOTARGET) -- Mend Pet
+    :AddSpell( 3662,  10,"Pet",    F.NOTARGET) -- Mend Pet
+    :AddSpell(13542,  10,"Pet",    F.NOTARGET) -- Mend Pet
+    :AddSpell(13543,  10,"Pet",    F.NOTARGET) -- Mend Pet
+    :AddSpell(13544,  10,"Pet",    F.NOTARGET) -- Mend Pet
+    :AddSpell(27046,  10,"Pet",    F.NOTARGET) -- Mend Pet
+
     :AddSpell( 6991,  10,"Pet",    F.NOTARGET) -- Feed Pet
     :AddSpell( 1978,  15,"Default",  F.TICKS) -- Serpent Sting
     :AddSpell(53301,   2,"Default"):SetTickSpeed(1) -- Explosive Shot
@@ -40,7 +49,10 @@ if FW.CLASS == "HUNTER" then
     :AddCooldown(781,025) -- Disengage
 
     -- pet buffs/debuffs
-    --:AddSpell(19615, 0,010,0,"Default") -- Frenzy Effect on pet
+    :AddSpell(19615, 8,"Pet") -- Frenzy Effect on pet
+
+    :AddBuff(35098) -- Rapid Killing
+    :AddBuff(35099) -- Rapid Killing
 
     :AddBuff(90355) -- Bloodlust / Heroism - Core Hound E
     :AddBuff(90361) -- Spirit Mend - Spirit Beast E
@@ -48,7 +60,6 @@ if FW.CLASS == "HUNTER" then
     :AddBuff(90364) -- Stamina Buff - Silithid E
     :AddBuff(24604) -- Critical Strike Buff - Wolf/Dog
     :AddBuff(90309) -- Critical Strike Buff - Devilsaur
-
 
     :AddSpell(58604,  10,"Pet") -- Casting Speed Reduction - Core Hound E
     :AddSpell(50274,   9,"Pet") -- Casting Speed Reduction - Sporebat
@@ -100,10 +111,16 @@ if FW.CLASS == "HUNTER" then
     :AddSpell( 1499,  60,"Crowd") -- Freezing Trap
 
     --debuffname
+    :AddDebuff(25225) -- Sunder Armor
     :AddDebuff(3355) -- Freezing Trap Effect
     :AddDebuff(1130) -- Hunter's Mark
     :AddDebuff(20736) -- Distracting Shot
     :AddDebuff(35101) -- Concussive Barrage
+    :AddDebuff(3043) -- Scorpid Sting
+    :AddDebuff(27018) -- Viper Sting
+    :AddDebuff(34501) -- Expose Weakness
+    :AddDebuff(27065) -- Aimed Shot
+
 
     :AddMeleeBuffs()
     :AddCasterBuffs()

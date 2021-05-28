@@ -1573,7 +1573,22 @@ FW:RegisterOnProfileChange(CD_SpellFailed);
 
 -- global melee trinket names
 function CD:AddMeleePowerupCooldowns()
-  --self:AddCooldownPowerup(37166,60305) -- Sphere of Red Dragon's Blood,  Heart of a Dragon
+  self:AddCooldownPowerup(28034,33648) -- Hourglass of the Unraveller, Rage of the Unraveller
+    :AddCooldownPowerup(28041,33667) -- Bladefist's Breadth, Ferocity
+    :AddCooldownPowerup(29383,35166) -- Bloodlust Brooch, Lust for Battle
+    :AddCooldownPowerup(28288,33807) -- Abacus of Violent Odds, Haste
+    :AddCooldownPowerup(29776,35733) -- Core of Ar'kelos, Ancient Power
+    :AddCooldownPowerup(25628,32362) -- Ogre Mauler's Badge, Burning Hatred
+    :AddCooldownPowerup(34472,45053) -- Shard of Contempt, Disdain
+    :AddCooldownPowerup(30627,42084) -- Tsunami Talisman, Fury of the Crashing Waves
+    :AddCooldownPowerup(29301,35081) -- Band of the Eternal Champion, Band of the Eternal Champion
+    :AddCooldownPowerup(33831,43716) -- Berserker's Call, Call of the Berserker
+    :AddCooldownPowerup(34427,40487) -- Ashtongue Talisman of Swiftness, Deadly Aim
+    :AddCooldownPowerup(34472,45040) -- Blackened Naaru Sliver, Battle Trance
+    :AddCooldownPowerup(29529,35476) -- Drums of Battle, Drums of Battle
+    :AddCooldownPowerup(185848,351355) -- Greater Drums of Battle, Greater Drums of Battle
+    :AddCooldownPowerup(29528,35475) -- Drums of War, Drums of War
+    :AddCooldownPowerup(185852,351360) -- Greater Drums of War, Greater Drums of War
 end
 
 -- global caster trinket names
