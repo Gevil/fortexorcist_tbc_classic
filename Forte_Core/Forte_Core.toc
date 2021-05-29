@@ -1,7 +1,7 @@
-## Interface: 80000
+## Interface: 20501
 ## Author: Xus (Xussie-Kazzak [EU]) & Belle (Bellexandria-Exodar [US])
 ## Title: Forte|c0000ff00Xorcist|r 2
-## Version: 2.0.0-alpha
+## Version: 2.5.1
 ## Notes: ForteXorcist is a Powerful AddOn for... Everybody! It provides you with a lot of useful tools to make playing your character easier and more fun. :)
 ## SavedVariables: FC_Saved, FX_Saved
 ## OptionalDeps: LibSharedMedia-3.0, oRA3

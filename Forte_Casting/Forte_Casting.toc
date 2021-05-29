@@ -1,4 +1,4 @@
-## Interface: 80000
+## Interface: 20501
 ## Author: Xus (Xussie-Kazzak [EU]) & Belle (Bellexandria-Exodar [US])
 ## Title: Forte|c0100dd00Casting|r
 ## Notes: ForteXorcist Casting module. It is required to use various other ForteXorcist modules.

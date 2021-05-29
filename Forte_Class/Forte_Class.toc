@@ -1,4 +1,4 @@
-## Interface: 80000
+## Interface: 20501
 ## Author: Xus (Xussie-Kazzak [EU]) & Belle (Bellexandria-Exodar [US])
 ## Title: Forte|c0200dd00Class|r
 ## Notes: ForteXorcist Class module. It registers relevant spells to the other modules and adds class-specific functionality.

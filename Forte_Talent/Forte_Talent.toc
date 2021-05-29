@@ -1,4 +1,4 @@
-## Interface: 80000
+## Interface: 20501
 ## Author: Xus (Xussie-Kazzak [EU]) & Belle (Bellexandria-Exodar [US])
 ## Title: Forte|c0500dd00Talent|r
 ## Notes: Forte Talent Module
