@@ -1,5 +1,5 @@
 ## Interface: 20501
-## Author: Xus (Xussie-Kazzak [EU]) & Belle (Bellexandria-Exodar [US])
+## Author: Xus (Xussie-Kazzak [EU]) & Belle (Bellexandria-Exodar [US]) 
 ## Title: Forte|c0000ff00Xorcist|r 2
 ## Version: 2.5.1
 ## Notes: ForteXorcist is a Powerful AddOn for... Everybody! It provides you with a lot of useful tools to make playing your character easier and more fun. :)
