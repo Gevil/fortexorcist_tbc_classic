@@ -936,7 +936,7 @@ local function CD_CastFailed(event,unit,num,spellID) -- items that are on cooldo
   if unit == "player" or unit == "pet" then
     for i=cd.rows,1,-1 do
       if cd[i][1] == spell and cd[i][6] ~= FLAG_BUFF and cd[i][6] ~= FLAG_DEBUFF then
-        FW:Show(spell);
+        --FW:Show(spell);
         CD_FocusTimer(i);
         return;
       end
