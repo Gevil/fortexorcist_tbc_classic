@@ -1321,7 +1321,7 @@ end
 local function checkWeaponEnchant(has,left,count,name,slotname)
   local index = st:find2(ENCHANT,6,name,8);
   if has then
-    left = left*0.001;
+    left = left and 1 or 0*0.001;
     local expire = GetTime()+left;
     if index then
       if --[[st[index][1] ~= expire]] abs( st[index][1]-expire ) > 0.1 or st[index][14] > NORMAL then

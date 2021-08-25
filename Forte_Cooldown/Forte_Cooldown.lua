@@ -828,7 +828,7 @@ local function CD_ScanWeaponEnchant()
     CD:CheckCooldown(FWL.WEAPON_ENCHANT_MAIN,GetTime(),0,"",FLAG_ENCHANT);
   end
   if hasOffHandEnchant then
-    CD:CheckCooldown(FWL.WEAPON_ENCHANT_OFFHAND,GetTime(),offHandExpiration*0.001,GetInventoryItemTexture("player",select(1,GetInventorySlotInfo("SecondaryHandSlot"))),FLAG_ENCHANT);
+    CD:CheckCooldown(FWL.WEAPON_ENCHANT_OFFHAND,GetTime(),offHandExpiration and 1 or 0*0.001,GetInventoryItemTexture("player",select(1,GetInventorySlotInfo("SecondaryHandSlot"))),FLAG_ENCHANT);
   else
     CD:CheckCooldown(FWL.WEAPON_ENCHANT_OFFHAND,GetTime(),0,"",FLAG_ENCHANT);
   end
