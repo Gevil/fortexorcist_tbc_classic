@@ -4710,6 +4710,7 @@ function FW:NewOptionsPanel()
   end
   obj.SetFont = function(self)
     local fo,si,fl = unpack(FW.Settings.OptionsFont);
+		fl = ""; --dirty fix
     local ss = si-2;
     local foh,sih,flh = unpack(FW.Settings.OptionsHeaderFont);
 
