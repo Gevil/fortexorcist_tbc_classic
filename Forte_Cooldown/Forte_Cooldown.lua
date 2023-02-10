@@ -645,9 +645,9 @@ local GetSpellCooldown = GetSpellCooldown;
 
 local GetActionInfo = GetActionInfo;
 local GetItemInfo = GetItemInfo;
-local GetItemCooldown = GetItemCooldown;
-local GetContainerNumSlots = GetContainerNumSlots;
-local GetContainerItemID = GetContainerItemID;
+local GetItemCooldown = GetItemCooldown or (C_Container and C_Container.GetItemCooldown);
+local GetContainerNumSlots = GetContainerNumSlots or (C_Container and C_Container.GetContainerNumSlots);
+local GetContainerItemID = GetContainerItemID or (C_Container and C_Container.GetContainerItemID);
 local GetPetActionInfo = GetPetActionInfo;
 local GetPetActionCooldown = GetPetActionCooldown;
 local GetInventoryItemID = GetInventoryItemID;
